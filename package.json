@@ -1,0 +1,18 @@
+{
+  "name": "cicd-nodejs-demo",
+  "version": "1.0.0",
+  "description": "Sample Node.js app with a GitHub Actions CI/CD pipeline (test -> build -> push to Docker Hub)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
